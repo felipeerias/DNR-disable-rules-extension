@@ -1,0 +1,117 @@
+{
+  "name": "Easylist test",
+  "description": "Build an Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background_timing.js"
+  },
+  "declarative_net_request" : {
+    "rule_resources" : [
+      {
+        "id": "easylist_dnr_0",
+        "enabled": false,
+        "path": "easylist_dnr_0.json"
+      },
+      {
+        "id": "easylist_dnr_1",
+        "enabled": false,
+        "path": "easylist_dnr_0.json"
+      },
+      {
+        "id": "easylist_dnr_2",
+        "enabled": false,
+        "path": "easylist_dnr_0.json"
+      },
+      {
+        "id": "easylist_dnr_3",
+        "enabled": false,
+        "path": "easylist_dnr_0.json"
+      },
+      {
+        "id": "easylist_dnr_4",
+        "enabled": false,
+        "path": "easylist_dnr_0.json"
+      },
+      {
+        "id": "easylist_dnr_5",
+        "enabled": false,
+        "path": "easylist_dnr_0.json"
+      },
+      {
+        "id": "easylist_dnr_6",
+        "enabled": false,
+        "path": "easylist_dnr_0.json"
+      },
+      {
+        "id": "easylist_dnr_7",
+        "enabled": false,
+        "path": "easylist_dnr_0.json"
+      },
+      {
+        "id": "easylist_dnr_8",
+        "enabled": false,
+        "path": "easylist_dnr_0.json"
+      },
+      {
+        "id": "easylist_dnr_9",
+        "enabled": false,
+        "path": "easylist_dnr_0.json"
+      },
+      {
+        "id": "fat_easylist_dnr_0",
+        "enabled": false,
+        "path": "fat_easylist_dnr_0.json"
+      },
+      {
+        "id": "fat_easylist_dnr_1",
+        "enabled": false,
+        "path": "fat_easylist_dnr_0.json"
+      },
+      {
+        "id": "fat_easylist_dnr_2",
+        "enabled": false,
+        "path": "fat_easylist_dnr_0.json"
+      },
+      {
+        "id": "fat_easylist_dnr_3",
+        "enabled": false,
+        "path": "fat_easylist_dnr_0.json"
+      },
+      {
+        "id": "fat_easylist_dnr_4",
+        "enabled": false,
+        "path": "fat_easylist_dnr_0.json"
+      },
+      {
+        "id": "fat_easylist_dnr_5",
+        "enabled": false,
+        "path": "fat_easylist_dnr_0.json"
+      },
+      {
+        "id": "fat_easylist_dnr_6",
+        "enabled": false,
+        "path": "fat_easylist_dnr_0.json"
+      },
+      {
+        "id": "fat_easylist_dnr_7",
+        "enabled": false,
+        "path": "fat_easylist_dnr_0.json"
+      },
+      {
+        "id": "fat_easylist_dnr_8",
+        "enabled": false,
+        "path": "fat_easylist_dnr_0.json"
+      },
+      {
+        "id": "fat_easylist_dnr_9",
+        "enabled": false,
+        "path": "fat_easylist_dnr_0.json"
+      }
+    ]
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ]
+}
