@@ -1,4 +1,4 @@
-# DNR-disable-rules-extension
+# Declarative Net Request: disable individual static rules (test extension)
 
 An extension for testing the functionality for disabling static rules in [Declarative Net Request](https://developer.chrome.com/extensions/declarativeNetRequest).
 
